@@ -9,7 +9,7 @@ def map_show(response):
     #https://maps.googleapis.com/maps/api/directions/json?origin=Toronto&destination=Montreal&key=API_KEY
     pass
 def results(response):
-    wb2 = load_workbook('C:\\Users\\eoo\\PycharmProjects\\gitoc\\gitoc\\static\gitoc.xlsx')
+    wb2 = load_workbook('gitoc.xlsx')
     #a = "Milan"
     #b = "Italy"
     a = response.GET.get("start_location");
